@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+   
+}
+.top{
+    height: 100px;
+    width: 100%;
+    background-color:rgba(59, 89, 152);
+    display: flex;
+    flex-direction: row;
+}
+
+.topleft{
+    height: 100px;
+    width: 50%;
+    padding-top: 30px;
+    display: inline;
+}
+
+.topleft h1{
+    height: 100px;
+    width: 50%;
+    color: white;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 200px;
+    padding-top: 30px;
+    display: inline;
+}
+.topright{
+    height: 100px;
+    width: 49%;
+    display: inline;
+
+}
+.form{
+    margin-top: 20px;
+   display: flex;
+    flex-direction: row;
+    
+    gap: 20px;
+    
+}
+.x{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.tpassword{
+   
+    color: white;
+    display: inline;
+}
+.temail{
+    
+    color: white;
+    font-family: a;
+    display: inline;
+    
+}
+.login{
+   width: 49px;
+   height: 19px;
+   padding: 1px;
+   background-color: #5972A7;
+   color: white;
+   
+   font-family: Arial, Helvetica, sans-serif;
+   border: 1px solid #5961a7;
+   border-radius: 2px;
+   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+   
+}
+.login:hover{
+    
+    cursor: pointer;
+}
+.submit{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.checkbox{
+    
+    color: rgb(150, 167, 201);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: small;
+        
+}
+.forgotpass{
+    
+    color: rgb(150, 167, 201);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    height: 72%;
+}
+.left{
+    width: 60%;
+    height: 100%;
+
+    border: black solid 1px;
+}
+
