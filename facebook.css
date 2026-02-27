@@ -4,6 +4,7 @@
 }
 body{
     height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
    
 }
 .top{
@@ -26,7 +27,7 @@ body{
     width: 50%;
     color: white;
     font-size: 50px;
-    font-family: Arial, Helvetica, sans-serif;
+    
     padding-left: 200px;
     padding-top: 30px;
     display: inline;
@@ -39,6 +40,7 @@ body{
 }
 .form{
     margin-top: 20px;
+    margin-left: 295px;
    display: flex;
     flex-direction: row;
     
@@ -49,7 +51,9 @@ body{
     display: flex;
     flex-direction: column;
     gap: 5px;
-    font-family: Arial, Helvetica, sans-serif;
+    width: 180px;
+    
+    
     
 }
 .tpassword{
@@ -71,7 +75,7 @@ body{
    background-color: #5972A7;
    color: white;
    
-   font-family: Arial, Helvetica, sans-serif;
+   
    border: 1px solid #5961a7;
    border-radius: 2px;
    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
@@ -90,7 +94,7 @@ body{
 .checkbox{
     
     color: rgb(150, 167, 201);
-        font-family: Arial, Helvetica, sans-serif;
+        
         font-size: small;
         
 }
@@ -98,7 +102,7 @@ body{
     
     color: rgb(150, 167, 201);
     text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
+   
     font-size: small;
 }
 
@@ -106,11 +110,149 @@ body{
     display: flex;
     flex-direction: row;
     height: 72%;
+    background: linear-gradient(to bottom, #ffffff, #C7CCDB);
 }
 .left{
     width: 60%;
-    height: 100%;
+    height: 85%;
 
-    border: black solid 1px;
+    
+    color: #0E385F;
+    font-weight: bold;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    
+}
+img{
+    margin-top: 20px;
+}
+.right form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+.hh{
+    font-size: 37px;
+
+   margin-top: 20px;
+}
+.free{
+    font-size: 19px;
+}
+.name input{
+    margin-top: 20px;
+    height: 38px;
+    font-size: large;
+    border-color:#C1CBDB ;
+    border-radius: 5px;
+    border-width: 1px;
+    padding-left:8px ;
+    width: 200px;
+    
+}
+.email{
+    height: 38px;
+    font-size: large;
+    border-color:#C1CBDB ;
+    border-radius: 5px;
+    border-width: 1px;
+    padding-left:8px ;
+    width: 414px;
+}
+.reemail{
+height: 38px;
+    font-size: large;
+    border-color:#C1CBDB ;
+    border-radius: 5px;
+    border-width: 1px;
+    padding-left:8px ;
+    width: 414px;
+
+
+}
+.password{
+    height: 38px;
+    font-size: large;
+    border-color:#C1CBDB ;
+    border-radius: 5px;
+    border-width: 1px;
+    padding-left:8px ;
+    width: 414px;
+}
+#month{
+    height: 28px;
+    width: 70px;
+    padding-left: 10px;
+    border-color:#C0CADA;
+}
+#day{
+
+ height: 28px;
+    width: 56px;
+    padding-left: 10px;
+    border-color:#C0CADA;
+
+
+}
+#year{
+     height: 28px;
+    width: 63px;
+    padding-left: 10px;
+    border-color:#C0CADA;
+}
+    .why{
+        margin-left: 5px;
+    }
+    .free{
+        color: black;
+    }
+    a{
+        color: #4B66A1;
+        text-decoration: none;
+    }
+    p{
+        color: #949599;
+    }
+    input[type="radio"]{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        transform: scale(1.2);
+        font-size: 500px;
+    }
+   .male{
+    margin-left: 20px;
+    font-size: large;
+    
+   }
+   .female{
+    
+    font-size: large;
+    
+   }
+   input[type="submit"]{
+    padding-bottom: 4px;
+    height: 50px;
+    width: 250px;
+    border-radius: 6px;
+    font-size:x-large;
+    color: white;
+    background-color: #60A14E;
+    border-color: #3B6E22;
+    border-width: 1px;
+    margin-bottom: 5px;
+    
+
+
+
+   }
+.bottom{
+
+width: 80%;
+height: 100%;
+padding-left: 250px;
 }
 
